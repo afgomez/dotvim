@@ -26,7 +26,7 @@ hi Search  guifg=NONE guibg=#495260 gui=NONE
 hi Directory  guifg=#ff628c guibg=NONE gui=NONE
 hi Folded  guifg=#2f8afa guibg=#08162b gui=NONE
 
-hi Normal  guifg=#ffffff guibg=#08162b gui=NONE
+hi Normal  guifg=#ffffff guibg=#061e39 gui=NONE
 hi Boolean  guifg=#ff628c guibg=NONE gui=NONE
 hi Character  guifg=#ff628c guibg=NONE gui=NONE
 hi Comment  guifg=#2f8afa guibg=NONE gui=italic
@@ -92,11 +92,13 @@ hi yamlKey  guifg=#ffdd00 guibg=NONE gui=NONE
 hi yamlAnchor  guifg=#cccccc guibg=NONE gui=NONE
 hi yamlAlias  guifg=#cccccc guibg=NONE gui=NONE
 hi yamlDocumentHeader  guifg=#3ad900 guibg=NONE gui=NONE
-hi cssURL  guifg=#cccccc guibg=NONE gui=NONE
+hi cssTagName guifg=#9effff guibg=NONE gui=NONE
+hi cssIdentifier guifg=#ff9d00 guibg=NONE gui=NONE
+hi cssClassName  guifg=#5fe460 guibg=NONE gui=NONE
+hi cssDefinition guifg=#9df39d guibg=NONE gui=NONE
 hi cssFunctionName  guifg=#ffb054 guibg=NONE gui=NONE
 hi cssColor  guifg=#ff628c guibg=NONE gui=NONE
 hi cssPseudoClassId  guifg=#ffdd00 guibg=NONE gui=NONE
-hi cssClassName  guifg=#ffdd00 guibg=NONE gui=NONE
 hi cssValueLength  guifg=#ff628c guibg=NONE gui=NONE
 hi cssCommonAttr  guifg=#eb939a guibg=NONE gui=NONE
 hi cssBraces  guifg=#e1efff guibg=NONE gui=NONE
