@@ -40,7 +40,7 @@ hi Function  guifg=#ffdd00 guibg=NONE gui=NONE
 hi Identifier  guifg=#ffee80 guibg=NONE gui=NONE
 hi Keyword  guifg=#ff9d00 guibg=NONE gui=NONE
 hi Label  guifg=#3ad900 guibg=NONE gui=NONE
-hi NonText  guifg=#2b3749 guibg=#050f1c gui=NONE
+hi NonText  guifg=#2b3749 guibg=NONE gui=NONE
 hi Number  guifg=#ff628c guibg=NONE gui=NONE
 hi Operator  guifg=#ff9d00 guibg=NONE gui=NONE
 hi PreProc  guifg=#ff9d00 guibg=NONE gui=NONE
