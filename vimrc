@@ -2,6 +2,9 @@ runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
+" Disable vi compatibility
+set nocompatible
+
 " Change leader key to comma
 let mapleader = ","
 
