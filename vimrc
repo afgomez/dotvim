@@ -5,15 +5,11 @@ call pathogen#helptags()
 " Change leader key to comma
 let mapleader = ","
 
-
 " Standard stuff
 set number
 set hidden " Manage buffers more efficiently
 set history=1000
 set list
-set cursorline
-
-colorscheme cobalt
 
 " File-type highlighting and configuration.
 " Run :filetype (without args) to see what you may have
@@ -34,6 +30,10 @@ set smartindent
 
 " Textmate invisible characters
 set listchars=tab:▸\ ,eol:¬
+
+
+" CommandT configuration
+let g:CommandTMaxHeight=20
 
 
 " Highlight search terms...
@@ -57,19 +57,34 @@ if has("gui_running")
   set guioptions-=T
   set guifont=Consolas:h12
   color cobalt
+  set cursorline
 endif 
 
 if has("autocmd")
   " Save files when focus is lost
-  autocmd BufLeave,FocusLost silent! wall
+  autocmd BufLeave,FocusLost !silent wall
 endif
 
 " Macvim Stuff
 if has("gui_macvim")
   let macvim_hig_shift_movement = 1
+  
+  " Command-Shift-F for Ack
+  map <D-F> :Ack<space>
+
+  " Command-/ to toggle comments
+  map <D-/> <plug>NERDCommenterToggle<CR>
+  imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
+
+  " Command-T for CommandT
+  macmenu &File.New\ Tab key=<D-T>
+  map <D-t> :CommandT<CR>
+  imap <D-t> <Esc>:CommandT<CR>
+
+
+
+
 endif
-
-
 
 " Show syntax highlighting groups for word under cursor
 nmap <C-S-P> :call <SID>SynStack()<CR>
