@@ -2,6 +2,10 @@ runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
+" Change leader key to comma
+let mapleader = ","
+
+
 " Standard stuff
 set number
 set hidden " Manage buffers more efficiently
