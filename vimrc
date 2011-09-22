@@ -18,6 +18,14 @@ filetype on
 filetype plugin on
 filetype indent on
 
+" Identation settings
+set tabstop=8
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+
+set autoindent
+set smartindent
 
 " Textmate invisible characters
 set listchars=tab:▸\ ,eol:¬
