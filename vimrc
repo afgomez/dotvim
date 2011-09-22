@@ -52,17 +52,22 @@ set smartcase
 " Keep some lines before/after the cursor when scrolling
 set scrolloff=3
 
-" Remove toolbar
+" GUI stuff
 if has("gui_running")
   set guioptions-=T
+  set guifont=Consolas:h12
+  color cobalt
 endif 
 
-" Reload .vimrc after editing it
 if has("autocmd")
-  autocmd bufwritepost .vimrc source $MYVIMRC
+  " Save files when focus is lost
+  autocmd BufLeave,FocusLost silent! wall
 endif
 
-
+" Macvim Stuff
+if has("gui_macvim")
+  let macvim_hig_shift_movement = 1
+endif
 
 
 
