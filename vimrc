@@ -40,6 +40,10 @@ set smartindent
 " Toggle NERDTree
 map <Leader>n :NERDTreeToggle<CR>
 
+" Switch to alternate file
+map <C-Tab> :bnext<cr>
+map <C-S-Tab> :bprevious<cr>
+
 " CommandT configuration
 let g:CommandTMaxHeight=20
 
