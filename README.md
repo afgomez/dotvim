@@ -1,4 +1,12 @@
 # Installation
 
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
+- Clone repository
+    
+    git clone git://github.com/afgomez/dotvim.git ~/.vim
+
+- Execute install.sh
+    
+    $ cd ~/.vim
+    $ ./install.sh
+
+
