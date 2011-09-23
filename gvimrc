@@ -17,7 +17,6 @@ if has("gui_macvim")
   let macvim_hig_shift_movement = 1
   
    " Fullscreen
-  macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
   set fuoptions=maxvert,maxhorz
   au GUIEnter * set fullscreen
   

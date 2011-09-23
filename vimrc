@@ -47,6 +47,9 @@ map <C-S-Tab> :bprevious<cr>
 " CommandT configuration
 let g:CommandTMaxHeight=20
 
+" Textmate Command-Enter
+imap <D-CR> <Esc>o
+
 " Highlight search terms...
 set hlsearch
 set incsearch " ...dynamically as they are typed.
