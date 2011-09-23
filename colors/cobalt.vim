@@ -60,10 +60,12 @@ hi rubyInterpolationDelimiter  guifg=NONE guibg=NONE gui=NONE
 hi rubySymbol  guifg=#ff628c guibg=NONE gui=NONE
 hi rubyConstant  guifg=#80ffbb guibg=NONE gui=NONE
 hi rubyStringDelimiter  guifg=#3ad900 guibg=NONE gui=NONE
-hi rubyBlockParameter  guifg=#cccccc guibg=NONE gui=NONE
-hi rubyInstanceVariable  guifg=#ff80e1 guibg=NONE gui=NONE
+hi rubyBlockParameter  guifg=#bbbbbb guibg=NONE gui=NONE
+hi rubyInstanceVariable  guifg=#bbbbbb guibg=NONE gui=NONE
 hi rubyInclude  guifg=#ff9d00 guibg=NONE gui=NONE
-hi rubyGlobalVariable  guifg=#cccccc guibg=NONE gui=NONE
+hi rubyGlobalVariable  guifg=#bbbbbb guibg=NONE gui=NONE
+hi rubyInterpolation guifg=#9eff80 guibg=NONE gui=NONE
+hi rubyInterpolationDelimiter guifg=#9eff80 guibg=NONE gui=NONE
 hi rubyRegexp  guifg=#80ffc2 guibg=NONE gui=NONE
 hi rubyRegexpDelimiter  guifg=#80ffc2 guibg=NONE gui=NONE
 hi rubyEscape  guifg=#ff628c guibg=NONE gui=NONE
