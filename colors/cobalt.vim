@@ -1,5 +1,7 @@
 " Vim color file
 " Converted from Textmate theme Cobalt copy using Coloration v0.2.5 (http://github.com/sickill/coloration)
+" FIXME: Improve readibilty of the file aligning things
+
 
 set background=dark
 highlight clear
@@ -10,7 +12,7 @@ endif
 
 let g:colors_name = "Cobalt"
 
-hi Cursor  guifg=NONE guibg=#ffffff gui=NONE
+hi Cursor  guifg=NONE guibg=#c76045 gui=NONE
 hi Visual  guifg=NONE guibg=#875035 gui=NONE
 hi CursorLine  guifg=NONE guibg=#050f1c gui=NONE
 hi CursorColumn  guifg=NONE guibg=#050f1c gui=NONE
@@ -51,7 +53,7 @@ hi StorageClass  guifg=#ffee80 guibg=NONE gui=NONE
 hi String  guifg=#3ad900 guibg=NONE gui=NONE
 hi Tag  guifg=#ffdd00 guibg=NONE gui=NONE
 hi Title  guifg=#ffffff guibg=NONE gui=bold
-hi Todo  guifg=#2f8afa guibg=NONE gui=inverse,bold,italic
+hi Todo  guifg=#2fffff guibg=NONE gui=bold,italic
 hi Type  guifg=#ffdd00 guibg=NONE gui=NONE
 hi Underlined  guifg=NONE guibg=NONE gui=underline
 hi rubyClass  guifg=#ff9d00 guibg=NONE gui=NONE
@@ -103,4 +105,4 @@ hi cssColor  guifg=#ff628c guibg=NONE gui=NONE
 hi cssPseudoClassId  guifg=#ffdd00 guibg=NONE gui=NONE
 hi cssValueLength  guifg=#ff628c guibg=NONE gui=NONE
 hi cssCommonAttr  guifg=#eb939a guibg=NONE gui=NONE
-hi cssBraces  guifg=#e1efff guibg=NONE gui=NONE
+hi cssBraces  guifg=#ffffff guibg=NONE gui=NONE
