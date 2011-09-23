@@ -37,6 +37,9 @@ set expandtab
 set autoindent
 set smartindent
 
+" Toggle NERDTree
+map <Leader>n :NERDTreeToggle<CR>
+
 " CommandT configuration
 let g:CommandTMaxHeight=20
 

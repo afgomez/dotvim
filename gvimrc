@@ -17,7 +17,7 @@ if has("gui_macvim")
   let macvim_hig_shift_movement = 1
   
   " Command-T ala Textmate
-  macmenu &File.New\ Tab key=<nop>
+  macmenu &File.New\ Tab key=<D-T>
   map <D-t> :CommandT<CR>
   imap <D-t> <Esc>:CommandT<CR>
   
