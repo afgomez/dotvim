@@ -63,7 +63,7 @@ set scrolloff=5
 
 if has("autocmd")
   " Save files when focus is lost
-  autocmd BufLeave,FocusLost !silent wall
+  autocmd BufLeave,FocusLost * silent! wall
 endif
 
 " For some reason this doesn't work on gvimrc
