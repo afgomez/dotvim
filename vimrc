@@ -18,6 +18,9 @@ set number
 " Always show status line
 set laststatus=2
 
+" re-read a file if it has a different timestamp
+set autoread
+
 " Don't complain when switching unsaved buffers
 set hidden
 
