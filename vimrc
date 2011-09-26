@@ -76,9 +76,6 @@ endif
 " For some reason this doesn't work on gvimrc
 if has("gui_macvim")
   let macvim_hig_shift_movement = 1
-
-  " Don't want entering select mode by default
-  set selectmode=
 endif
 
 runtime functions.vim
