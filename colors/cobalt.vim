@@ -56,6 +56,12 @@ hi Title  guifg=#ffffff guibg=NONE gui=bold
 hi Todo  guifg=#2fffff guibg=NONE gui=bold,italic
 hi Type  guifg=#ffdd00 guibg=NONE gui=NONE
 hi Underlined  guifg=NONE guibg=NONE gui=underline
+
+highlight DiffAdd cterm=NONE ctermfg=NONE ctermbg=Green gui=NONE guifg=NONE guibg=#154f00
+highlight DiffDelete cterm=NONE ctermfg=NONE ctermbg=Red gui=NONE guifg=NONE guibg=#4c0900
+highlight DiffChange cterm=NONE ctermfg=NONE ctermbg=Yellow gui=NONE guifg=NONE guibg=#806f00
+highlight DiffText cterm=NONE ctermfg=NONE ctermbg=Magenta gui=NONE guifg=NONE guibg=Magenta 
+
 hi rubyClass  guifg=#ff9d00 guibg=NONE gui=NONE
 hi rubyFunction  guifg=#ffdd00 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter  guifg=NONE guibg=NONE gui=NONE
