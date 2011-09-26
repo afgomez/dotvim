@@ -20,11 +20,11 @@ hi LineNr  guifg=#848b95 guibg=#000000 gui=NONE
 hi VertSplit  guifg=#374253 guibg=#374253 gui=NONE
 hi MatchParen  guifg=#000000 guibg=#ffffff gui=NONE
 hi StatusLine  guifg=#ffffff guibg=#374253 gui=bold
-hi StatusLineNC  guifg=#ffffff guibg=#374253 gui=NONE
+hi StatusLineNC  guifg=#999999 guibg=#333333 gui=NONE
 hi Pmenu  guifg=#ffdd00 guibg=NONE gui=NONE
 hi PmenuSel  guifg=NONE guibg=#875035 gui=NONE
-hi IncSearch  guifg=NONE guibg=#495260 gui=NONE
-hi Search  guifg=NONE guibg=#495260 gui=NONE
+hi IncSearch  guifg=#000000 guibg=#ffff00 gui=NONE
+hi Search  guifg=#000000 guibg=#ffff00 gui=NONE
 hi Directory  guifg=#ff628c guibg=NONE gui=NONE
 hi Folded  guifg=#2f8afa guibg=#08162b gui=NONE
 
