@@ -33,7 +33,9 @@ if has("gui_macvim")
   " Command-/ to toggle comments
   map <D-/> <plug>NERDCommenterToggle<CR>
   imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
-
+  
+  map <D-F> :Ack<Space>
+  imap <D-F> <Esc>:Ack<Space>
 
 
 endif
