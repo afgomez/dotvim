@@ -40,6 +40,10 @@ set expandtab
 set autoindent
 set smartindent
 
+" Directories for swp files
+set backupdir=~/.vim/backup
+set directory=~/.vim/backup
+
 " Toggle NERDTree
 map <Leader>n :NERDTreeToggle<CR>
 
