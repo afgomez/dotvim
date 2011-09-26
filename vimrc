@@ -57,6 +57,10 @@ let g:CommandTMaxHeight=20
 " Textmate Command-Enter
 imap <D-CR> <Esc>o
 
+" Textmate duplicate line
+map <C-D> yyp
+imap <C-D> <Esc>yypi
+
 " Highlight search terms...
 set hlsearch
 set incsearch " ...dynamically as they are typed.
