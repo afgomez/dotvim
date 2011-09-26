@@ -41,10 +41,7 @@ syntax on
 filetype plugin indent on
 
 " Identation settings
-set tabstop=8
-set shiftwidth=2
-set softtabstop=2
-set expandtab
+set tabstop=8 shiftwidth=2 softtabstop=2 expandtab
 
 set autoindent
 set smartindent
