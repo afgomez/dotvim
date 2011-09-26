@@ -15,6 +15,12 @@ set wildmode=longest:full
 " Show line numbers
 set number
 
+" Show line/column in status bar
+set ruler
+
+" Higher command line
+set cmdheight=2
+
 " Always show status line
 set laststatus=2
 
@@ -54,6 +60,9 @@ map <Leader>n :NERDTreeToggle<CR>
 map <C-Tab> :bnext<cr>
 map <C-S-Tab> :bprevious<cr>
 
+" edit a file in the same path of the current file (copied from Janus)
+map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
+
 " CommandT configuration
 let g:CommandTMaxHeight=20
 
@@ -84,5 +93,9 @@ endif
 if has("gui_macvim")
   let macvim_hig_shift_movement = 1
 endif
+
+" Don't include the character under the cursor in selection (like all other
+" editors in the world
+set selection=exclusive
 
 runtime functions.vim
