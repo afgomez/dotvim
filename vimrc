@@ -95,6 +95,11 @@ if has("autocmd")
   autocmd BufRead css setlocal isk-=:
 endif
 
+" Fix Supertab and delimitMate discrepances
+let g:SuperTabCrMapping = 0
+let g:delimitMate_expand_space = 1
+let g:delimitMate_expand_cr = 1
+
 " For some reason this doesn't work on gvimrc
 if has("gui_macvim")
   let macvim_hig_shift_movement = 1
