@@ -84,6 +84,12 @@ set scrolloff=5
 if has("autocmd")
   " Save files when focus is lost
   autocmd BufLeave,FocusLost * silent! wall
+  
+  " - is a valid identifier in CSS/HTML
+  autocmd BufRead css,html setlocal isk+=-
+
+  " Fixes syntax problems caused by ragtag
+  autocmd BufRead css setlocal isk-=:
 endif
 
 " For some reason this doesn't work on gvimrc
