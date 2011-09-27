@@ -74,6 +74,9 @@ imap <C-D> <Esc>yypi
 set hlsearch
 set incsearch " ...dynamically as they are typed.
 
+" Ctags
+map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+
 " case-insensitive searches
 set ignorecase 
 set smartcase
