@@ -97,7 +97,6 @@ hi htmlArg  guifg=#9effff guibg=NONE gui=NONE
 hi htmlSpecialChar  guifg=#ff628c guibg=NONE gui=NONE
 hi javaScriptFunction  guifg=#ffee80 guibg=NONE gui=NONE
 hi javaScriptRailsFunction  guifg=#ffb054 guibg=NONE gui=NONE
-hi javaScriptBraces  guifg=NONE guibg=NONE gui=NONE
 hi yamlKey  guifg=#ffdd00 guibg=NONE gui=NONE
 hi yamlAnchor  guifg=#cccccc guibg=NONE gui=NONE
 hi yamlAlias  guifg=#cccccc guibg=NONE gui=NONE

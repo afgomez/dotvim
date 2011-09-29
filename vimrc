@@ -89,10 +89,10 @@ if has("autocmd")
   autocmd BufLeave,FocusLost * silent! wall
   
   " - is a valid identifier in CSS/HTML
-  autocmd BufRead css,html setlocal isk+=-
+  autocmd BufRead *.css,*.html setlocal isk+=-
 
   " Fixes syntax problems caused by ragtag
-  autocmd BufRead css setlocal isk-=:
+  autocmd BufRead *.css setlocal isk-=:
 endif
 
 " Fix Supertab and delimitMate discrepances
