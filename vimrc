@@ -97,7 +97,6 @@ endif
 
 " Fix Supertab and delimitMate discrepances
 let g:SuperTabCrMapping = 0
-let g:delimitMate_expand_space = 1
 let g:delimitMate_expand_cr = 1
 
 " For some reason this doesn't work on gvimrc
