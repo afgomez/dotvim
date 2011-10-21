@@ -12,23 +12,24 @@ endif
 
 let g:colors_name = "Cobalt"
 
-hi Cursor  guifg=NONE guibg=#c76045 gui=NONE
-hi Visual  guifg=NONE guibg=#875035 gui=NONE
-hi CursorLine  guifg=NONE guibg=#050f1c gui=NONE
-hi CursorColumn  guifg=NONE guibg=#050f1c gui=NONE
-hi LineNr  guifg=#848b95 guibg=#000000 gui=NONE
-hi VertSplit  guifg=#374253 guibg=#374253 gui=NONE
-hi MatchParen  guifg=NONE guibg=#768ec9 gui=NONE
-hi StatusLine  guifg=#ffffff guibg=#374253 gui=bold
+" GUI stuff
+hi Cursor        guifg=NONE    guibg=#c76045 gui=NONE
+hi Visual        guifg=NONE    guibg=#875035 gui=NONE
+hi CursorLine    guifg=NONE    guibg=#050f1c gui=NONE
+hi CursorColumn  guifg=NONE    guibg=#050f1c gui=NONE
+hi LineNr        guifg=#848b95 guibg=#000000 gui=NONE
+hi VertSplit     guifg=#374253 guibg=#374253 gui=NONE
+hi MatchParen    guifg=NONE    guibg=#768ec9 gui=NONE
+hi StatusLine    guifg=#ffffff guibg=#374253 gui=bold
 hi StatusLineNC  guifg=#999999 guibg=#333333 gui=NONE
-hi Pmenu  guifg=#ffdd00 guibg=#000066 gui=NONE
-hi PmenuSel  guifg=NONE guibg=#875035 gui=NONE
-hi IncSearch  guifg=#000000 guibg=#ffff00 gui=NONE
-hi Search  guifg=#000000 guibg=#ffff00 gui=NONE
-hi Directory  guifg=#ff628c guibg=NONE gui=NONE
-hi Folded  guifg=#2f8afa guibg=#08162b gui=NONE
+hi Pmenu         guifg=#ffdd00 guibg=#000066 gui=NONE
+hi PmenuSel      guifg=NONE    guibg=#875035 gui=NONE
+hi IncSearch     guifg=#000000 guibg=#ffff00 gui=NONE
+hi Search        guifg=#000000 guibg=#ffff00 gui=NONE
+hi Directory     guifg=#ff628c guibg=NONE    gui=NONE
+hi Folded        guifg=#2f8afa guibg=#08162b gui=NONE
 
-hi Normal  guifg=#ffffff guibg=#061e39 gui=NONE
+hi Normal  guifg=#ffffff guibg=#001e33 gui=NONE
 hi Boolean  guifg=#ff628c guibg=NONE gui=NONE
 hi Character  guifg=#ff628c guibg=NONE gui=NONE
 hi Comment  guifg=#2f8afa guibg=NONE gui=italic
