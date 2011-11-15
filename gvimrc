@@ -1,7 +1,7 @@
 " GUI stuff
 if has("gui_running")
   set guioptions-=T
-  set guifont=Consolas:h12
+  set guifont=Envy\ Code\ R:h13
   color cobalt
   set cursorline
 
