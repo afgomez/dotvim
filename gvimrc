@@ -25,6 +25,11 @@ if has("gui_macvim")
   map <D-t> :CommandT<CR>
   imap <D-t> <Esc>:CommandT<CR>
   
+  " Wipe current buffer with Cmd-w
+  macmenu &File.Close key=<nop>
+  map <D-w> :bw<CR>
+  imap <D-w> <Esc>:bw<CR>
+
   " Fast buffer switch with Command-T
   macmenu &Tools.Make key=<nop>
   map <D-b> :CommandTBuffer<CR>
